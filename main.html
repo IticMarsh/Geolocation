@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div id="map"></div>
+    <div class="inputs">
+    <button type="button" class="btn btn-secondary" id="findLoc">
+      Find Location
+    </button>
+    <input type="text" class="input" id="address" placeholder="Enter Location">
+    <input type="hidden" name="lat" value="" id="latitude" />
+    <input type="hidden" name="lng" value="" id="longitude" />
+    </div>
+
+
+  
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwEQr8flR0CtMZ-jSs9hK8lscYUMOtVPk&callback=initMap" async defer></script>
+        
+    <script src="script.js"></script>
+  </body>
+</html>
